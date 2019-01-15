@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t jupyter:xenial -f Dockerfile .
+docker build -t jupyter:bionic -f Dockerfile .
