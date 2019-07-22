@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t jupyter:disco -f Dockerfile .
+docker build -t jupyter:eoan -f Dockerfile .
