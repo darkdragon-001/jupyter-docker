@@ -9,7 +9,7 @@ docker run \
     -v "$PWD/notebooks:/home/notebooks" \
     --rm \
     --name jupyter \
-    jupyter:bionic \
+    jupyter:disco \
     jupyter notebook \
     '--notebook-dir=/home/notebooks' \
     --allow-root \
