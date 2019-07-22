@@ -11,8 +11,10 @@ RUN pip3 install \
   jupyter \
   jupyter_contrib_nbextensions \
   jupyter_nbextensions_configurator \
+  ipywidgets \
   && jupyter contrib nbextension install \
-  && jupyter nbextensions_configurator enable
+  && jupyter nbextensions_configurator enable \
+  && jupyter nbextension enable --py widgetsnbextension --sys-prefix
 EXPOSE 8888
 
 # Python2 kernel
