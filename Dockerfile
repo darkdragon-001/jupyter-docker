@@ -28,3 +28,6 @@ RUN pip install --upgrade \
   matplotlib \
   pandas \
   trimesh
+
+# Setup default extensions
+COPY notebook.json /root/.jupyter/nbconfig/
