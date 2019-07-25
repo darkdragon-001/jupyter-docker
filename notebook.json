@@ -1,0 +1,30 @@
+{
+  "load_extensions": {
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    "collapsible_headings/main": true,
+    "notify/notify": true,
+    "snippets_menu/main": true,
+    "codefolding/main": true,
+    "comment-uncomment/main": true,
+    "execute_time/ExecuteTime": true,
+    "freeze/main": true,
+    "snippets/main": true,
+    "varInspector/main": false,
+    "zenmode/main": true
+  },
+  "ExecuteTime": {
+    "display_absolute_timings": true,
+    "display_absolute_format": "",
+    "template": {
+      "executed": "${duration}"
+    },
+    "highlight": {
+      "color": "#e7ffe9"
+    }
+  },
+  "zenmode_backgrounds": [
+    ""
+  ],
+  "zenmode_use_builtin_backgrounds": false
+}
