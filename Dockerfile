@@ -13,3 +13,5 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   && jupyter nbextension enable --py widgetsnbextension --sys-prefix
 EXPOSE 8888
 
+# Setup default extensions
+COPY notebook.json /root/.jupyter/nbconfig/
