@@ -1,8 +1,8 @@
-FROM ubuntu:eoan
+FROM ubuntu:focal
 
 # Jupyter
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
-  jupyter \
+  python3-pip jupyter \
   && rm -rf /var/lib/apt/lists/* \
   && pip3 install \
   jupyter_contrib_nbextensions \

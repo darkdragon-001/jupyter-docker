@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t jupyter:eoan -f Dockerfile .
+docker build -t jupyter:focal -f Dockerfile .
